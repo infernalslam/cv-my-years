@@ -43,7 +43,18 @@
          </div>
       </div>
       <div class="hero-body">
-        hero-body
+        <div class="container">
+          <div class="columns is-mobile">
+            <div class="column">
+              <h7 class="is-size-6 has-text-white-bis">hi, my name is Tak</h7>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column">
+              <h1 class="has-text-white-bis">myear</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>
@@ -55,6 +66,9 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 268px;
+}
 .bars {
   display: block;
   position: relative;
@@ -75,7 +89,6 @@ export default {
 .color-red {
   background-color: #f8aba0;
 }
-
 .color-green {
   background-color: #a6e38c;
 }
