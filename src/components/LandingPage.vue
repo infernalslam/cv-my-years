@@ -45,13 +45,14 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-mobile">
-            <div class="column">
+            <div class="column line-height">
               <h7 class="is-size-6 has-text-white-bis">hi, my name is Tak</h7>
             </div>
           </div>
           <div class="columns is-mobile">
-            <div class="column">
+            <div class="column line-height">
               <h1 class="has-text-white-bis">myear</h1>
+              <h1 class="padding-left-30 random-color">2k18</h1>
             </div>
           </div>
         </div>
@@ -66,6 +67,39 @@ export default {
 </script>
 
 <style scoped>
+.random-color {
+   color: #f1c40f;
+  -webkit-animation: color 5s ease-in  0s infinite alternate running;
+  -moz-animation: color 5s linear  0s infinite alternate running;
+   animation: color 5s linear  0s infinite alternate running;
+}
+@-webkit-keyframes color {
+    0% { color: #f1c40f; }
+    32% { color: #e74c3c; }
+    55% { color: #9b59b6; }
+    76% { color: #16a085; }
+    100% { color: #2ecc71; }
+}
+@-moz-keyframes color {
+     0% { color: #f1c40f; }
+    32% { color: #e74c3c; }
+    55% { color: #9b59b6; }
+    76% { color: #16a085; }
+    100% { color: #2ecc71; }
+}
+@keyframes color {
+  0% { color: #f1c40f; }
+    32% { color: #e74c3c; }
+    55% { color: #9b59b6; }
+    76% { color: #16a085; }
+    100% { color: #2ecc71; }
+}
+.padding-left-30 {
+  padding-left: 30%;
+}
+.line-height {
+  line-height: 1;
+}
 h1 {
   font-size: 268px;
 }
